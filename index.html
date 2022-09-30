@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1 id="head">Sign to emoji<br>
+        <span>&#128076;</span>
+        <span>&#128077;</span>
+        <span>&#9996;</span>
+        <br>
+        </h1>
+
+        <p>Take an Image to figure out what sign u are showing</p>
+        
+        <br>
+        <b style="color: yellow">Are you good<span>&#128077;</span></b>
+        <br>
+        <b style="color: black">Are you feeling awesome<span>&#128076;</span></b>
+        <br>
+        <b style="color: green">Are you feeling Victory<span>&#9996;</span></b>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Snapshot - </label>
+            <div id="camera"></div>
+            <button class="btn btn-primary" onclick="takeSanpshot()">Take Snapshot</button>
+  
+          <br><br>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label class="btn btn-danger">Prediction 1</label>
+            <p class="emotion_name" id="result_emotion_name"></p>
+            <p class="emoji" id="update_emoji"></p>
+            <br><br><br>
+            <label class="btn btn-danger">Prediction 2</label>
+            <p class="emotion_name" id="result_emotion_name2"></p>
+            <p class="emoji" id="update_emoji2"></p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Pic result - </label>
+            <div id="result"></div>
+            <button class="btn btn-primary" onclick="giveResult()">Predict Emotion</button>
+            
+          <br><br
+
+    </center>
+    </body>
+</html>
